@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#006341,#0b3d91);
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  background:white;
+  width:500px;
+  max-width:90%;
+  padding:35px;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+h1{
+  text-align:center;
+  color:#0b3d91;
+  margin-bottom:8px;
+}
+
+.subtitulo{
+  text-align:center;
+  color:#666;
+  margin-bottom:25px;
+}
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:15px;
+}
+
+label{
+  margin-bottom:5px;
+  font-weight:600;
+  color:#333;
+}
+
+input{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:14px;
+  transition:0.3s;
+}
+
+input:focus{
+  border-color:#0b3d91;
+  outline:none;
+  box-shadow:0 0 4px rgba(11,61,145,0.3);
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#006341;
+  color:white;
+  border:none;
+  border-radius:6px;
+  font-size:15px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#004d32;
+}
+
+#mensagem{
+  margin-top:12px;
+  text-align:center;
+  font-weight:500;
+}
+
+.menu{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-top:20px;
+  width:100%;
+}
+
+
+.botao{
+  text-decoration:none;
+  background:#0b3d91;
+  color:white;
+  padding:12px;
+  border-radius:6px;
+  text-align:center;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.botao:hover{
+  background:#082c6b;
+}
+
+/* ================= CADASTRO DE TURMA ================= */
+
+#turma form{
+  border-top:3px solid #006341;
+  padding-top:15px;
+}
+
+#turma h2{
+  text-align:center;
+  color:#006341;
+  margin-bottom:20px;
+}
+
+#turma select{
+  background:#f9fafb;
+}
+
+#turma button{
+  margin-top:10px;
+}
+
+/* ================= CADASTRO DE ALUNO ================= */
+
+#aluno form{
+  border-top:3px solid #006341;
+  padding-top:15px;
+}
+
+#aluno h2{
+  text-align:center;
+  color:#006341;
+  margin-bottom:20px;
+}
+
+#aluno input{
+  background:#f9fafb;
+}
+
+#aluno select{
+  background:#f9fafb;
+}
+
+#aluno button{
+  margin-top:10px;
+}
+
+/* ================= REGISTRO DE OCORRÊNCIA ================= */
+
+#ocorrencia form{
+  border-top:3px solid #006341;
+  padding-top:15px;
+}
+
+#ocorrencia h2{
+  text-align:center;
+  color:#006341;
+  margin-bottom:20px;
+}
+
+#ocorrencia textarea{
+  background:#f9fafb;
+}
+
+#ocorrencia select{
+  background:#f9fafb;
+}
+
+#ocorrencia button{
+  margin-top:10px;
+}
+
+/* ================= CADASTRO DE PROFESSOR ================= */
+
+#professor form{
+  border-top:3px solid #006341;
+  padding-top:15px;
+}
+
+#professor h2{
+  text-align:center;
+  color:#006341;
+  margin-bottom:20px;
+}
+
+#professor input{
+  background:#f9fafb;
+}
+
+#professor button{
+  margin-top:10px;
+}
